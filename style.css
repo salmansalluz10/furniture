@@ -2,6 +2,11 @@
     font-family: "Merriweather", serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 ul li{
@@ -194,7 +199,7 @@ ul li{
     
 }
 .rosewood{
-    width: 50%;
+    max-width: 100%;
     padding: 4%;
     background-color: rgba(0, 0, 0, 0.893);
     color: white;
